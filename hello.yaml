@@ -1,0 +1,7 @@
+- name: print hello world
+  hosts: local
+  connection: local
+  tasks:
+  - name: hellow world
+    anisble.builtin.debug:
+      msg: "Hello world"
